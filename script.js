@@ -6,39 +6,48 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const pergunta = [
     {
-        enunciado: "Pergunta 1",
+        enunciado:"Qual jogo popular é conhecido por sua mecânica de construção e sobrevivência em um mundo de blocos?"
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Minecraft",
+            "Super Mario Bros"
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado:"Em qual jogo o protagonista Kratos busca vingança contra os deuses do Olimpo?"
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Tetris",
+            "God of War"
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual é o nome da princesa que Mario e Luigi frequentemente resgatam nos jogos da Nintendo?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Princesa Fiona",
+            "Princesa Peach"
+
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Qual desses jogos é um clássico jogo de labirinto onde você come pontos e frutas enquanto foge de fantasmas?",
         alternativa: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Street Fighter",
+            "Pac-Man"
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Em qual franquia de jogos de mundo aberto você pode roubar carros, cometer assaltos e completar missões em uma cidade fictícia?",
         alternativa: [
-            "alternativa 1",
-            "alternativa 2"
+            "The Sims",
+            "Grand Theft Auto"
         ]
     }
 ];
+let atual = 0:
+let PerguntaAtual;
+ funcion mostraPergunta(){
+    PerguntaAtual = PerguntaAtual
+    caixaPergunta.textContent = enunciado;
+ }
+
+  () mostraPergunta;
 
